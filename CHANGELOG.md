@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.2
+- Separated rules for typescript & non-typescript projects
+
 ## 1.0.1 (July 16, 2019)
 - Turned off no-inferrable-types
 - Turned off no-angle-bracket-type-assertion
