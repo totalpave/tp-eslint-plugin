@@ -2,15 +2,24 @@
   "name": "tp-testlib",
   "version": "1.0.0",
   "description": "Common test tools for TotalPave",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@bitbucket.org/totalpave/tp-testlib.git"
   },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
   "author": "norman.breau@totalpave.com",
   "license": "UNLICENSED",
-  "homepage": "https://bitbucket.org/totalpave/tp-testlib#readme"
+  "homepage": "https://bitbucket.org/totalpave/tp-testlib#readme",
+  "peerDependencies": {
+    "eslint": ">=6.0.1 && <7.0.0"
+  }
 }
