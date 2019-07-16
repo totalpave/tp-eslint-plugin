@@ -1,5 +1,5 @@
 {
-  "name": "tp-testlib",
+  "name": "@totalpave/eslint-plugin",
   "version": "1.0.0",
   "description": "Common test tools for TotalPave",
   "main": "dist/index.js",
