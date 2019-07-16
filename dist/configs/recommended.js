@@ -43,7 +43,10 @@ exports.default = {
                 "no-var": "off",
                 "no-explicit-any": "off",
                 "@typescript-eslint/explicit-function-return-type": "off",
-                "@typescript-eslint/interface-name-prefix": ['error', 'always']
+                "@typescript-eslint/interface-name-prefix": ['error', 'always'],
+                "@typescript-eslint/no-inferrable-types": "off",
+                "@typescript-eslint/no-angle-bracket-type-assertion": "off",
+                "@typescript-eslint/no-explicit-any": "off"
             }
         }
     ]
