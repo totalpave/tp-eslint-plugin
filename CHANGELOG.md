@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.3
+- Removed unneeded dependencies
+
 ## 1.0.2
 - Separated rules for typescript & non-typescript projects
 
