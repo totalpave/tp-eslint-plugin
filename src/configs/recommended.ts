@@ -45,7 +45,8 @@ export default {
                 "@typescript-eslint/interface-name-prefix": ['error', 'always'],
                 "@typescript-eslint/no-inferrable-types": "off",
                 "@typescript-eslint/no-angle-bracket-type-assertion": "off",
-                "@typescript-eslint/no-explicit-any": "off"
+                "@typescript-eslint/no-explicit-any": "off",
+                "@typescript-eslint/array-type": ['error', 'generic']
             }
         }
     ]
