@@ -1,11 +1,12 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-const recommended_1 = __importDefault(require("./configs/recommended"));
-module.exports = {
-    configs: {
-        recommended: recommended_1.default
-    }
-};
+// import recommendedTS from './configs/recommended-ts';
+// import recommended from './configs/recommended';
+// import * as unit from './unit';
+// export = {
+//     configs: {
+//         recommended,
+//         recommendedTS
+//     },
+//     unit: unit
+// };
 //# sourceMappingURL=index.js.map

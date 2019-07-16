@@ -21,5 +21,11 @@
   "homepage": "https://bitbucket.org/totalpave/tp-testlib#readme",
   "peerDependencies": {
     "eslint": ">=6.0.1 && <7.0.0"
+  },
+  "optionalDependencies": {
+    "@breautek/storm": ">=0.18.4"
+  },
+  "devDependencies": {
+    "@breautek/storm": "0.18.4"
   }
 }
