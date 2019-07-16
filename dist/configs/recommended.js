@@ -48,7 +48,8 @@ exports.default = {
                 "@typescript-eslint/no-angle-bracket-type-assertion": "off",
                 "@typescript-eslint/no-explicit-any": "off",
                 "@typescript-eslint/array-type": ['error', 'generic'],
-                "@typescript-eslint/explicit-member-accessibility": "off"
+                "@typescript-eslint/explicit-member-accessibility": "off",
+                "@typescript-eslint/no-unused-vars": "off" // eslint itself already has this rule, so this is a duplicate
             }
         }
     ]
