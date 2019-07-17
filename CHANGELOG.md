@@ -1,5 +1,8 @@
 # Changelog
 
+# 1.0.4
+- Changed camcelcase rule to not apply to object properties
+
 ## 1.0.3
 - Removed unneeded dependencies
 

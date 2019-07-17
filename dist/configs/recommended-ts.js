@@ -38,6 +38,8 @@ exports.default = {
                 ],
                 "no-var": "off",
                 "no-explicit-any": "off",
+                // https://github.com/typescript-eslint/typescript-eslint/blob/v1.12.0/packages/eslint-plugin/docs/rules/camelcase.md#options
+                "camelcase": "off",
                 "@typescript-eslint/explicit-function-return-type": "off",
                 "@typescript-eslint/interface-name-prefix": ['error', 'always'],
                 "@typescript-eslint/no-inferrable-types": "off",
@@ -49,6 +51,12 @@ exports.default = {
                     "error",
                     {
                         "args": "none"
+                    }
+                ],
+                "@typescript-eslint/camelcase": [
+                    "error",
+                    {
+                        "properties": "never"
                     }
                 ]
             }
