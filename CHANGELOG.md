@@ -1,5 +1,8 @@
 # Changelog
 
+# 1.0.5
+- Turned off triple slash references as we use them to fill in typing gaps if not supplied by a library
+
 # 1.0.4
 - Changed camcelcase rule to not apply to object properties
 

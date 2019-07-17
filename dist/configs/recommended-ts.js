@@ -58,7 +58,9 @@ exports.default = {
                     {
                         "properties": "never"
                     }
-                ]
+                ],
+                "@typescript-eslint/no-triple-slash-reference": "off",
+                "@typescript-eslint/triple-slash-reference": "off"
             }
         }
     ]
