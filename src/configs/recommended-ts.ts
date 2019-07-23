@@ -39,6 +39,15 @@ export default {
                 "no-explicit-any": "off",
                 // https://github.com/typescript-eslint/typescript-eslint/blob/v1.12.0/packages/eslint-plugin/docs/rules/camelcase.md#options
                 "camelcase": "off",
+                "no-use-before-define": [
+                    "error",
+                    {
+                        "functions": true,
+                        "classes": true,
+                        "variables": true
+                    }
+                ],
+                "prefer-const": "off",
                 "@typescript-eslint/explicit-function-return-type": "off",
                 "@typescript-eslint/interface-name-prefix": ['error', 'always'],
                 "@typescript-eslint/no-inferrable-types": "off",

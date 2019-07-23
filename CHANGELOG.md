@@ -1,5 +1,9 @@
 # Changelog
 
+# 1.0.6
+- Turned off `prefer-const` rule as we prefer to only use const with CONSTANTS that should be UPPER_CASE_ONLY.
+- Turned on `no-use-before-define` rule to enforce defining functinos, classes, and variables before using them.
+
 # 1.0.5
 - Turned off triple slash references as we use them to fill in typing gaps if not supplied by a library
 
