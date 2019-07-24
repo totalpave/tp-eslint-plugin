@@ -1,5 +1,8 @@
 # Changelog
 
+# 1.0.8
+- Turned off `prefer-spread` rule.
+
 # 1.0.7
 - Turned off `consistent-type-definition` rule.
 - Turned off `prefer-interface` rule.

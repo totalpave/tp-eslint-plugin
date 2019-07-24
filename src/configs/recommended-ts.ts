@@ -48,6 +48,7 @@ export default {
                     }
                 ],
                 "prefer-const": "off",
+                "prefer-spread": "off",
                 "@typescript-eslint/explicit-function-return-type": "off",
                 "@typescript-eslint/interface-name-prefix": ['error', 'always'],
                 "@typescript-eslint/no-inferrable-types": "off",
