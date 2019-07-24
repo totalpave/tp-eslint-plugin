@@ -1,6 +1,6 @@
 {
   "name": "@totalpave/eslint-plugin",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Common test tools for TotalPave",
   "main": "dist/index.js",
   "scripts": {

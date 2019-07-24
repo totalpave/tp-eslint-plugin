@@ -1,5 +1,8 @@
 # Changelog
 
+# 1.0.9
+- Turned off `no-async-promise-executor` rule.
+
 # 1.0.8
 - Turned off `prefer-spread` rule.
 
