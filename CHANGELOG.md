@@ -1,5 +1,9 @@
 # Changelog
 
+# 1.0.7
+- Turned off `consistent-type-definition` rule.
+- Turned off `prefer-interface` rule.
+
 # 1.0.6
 - Turned off `prefer-const` rule as we prefer to only use const with CONSTANTS that should be UPPER_CASE_ONLY.
 - Turned on `no-use-before-define` rule to enforce defining functinos, classes, and variables before using them.

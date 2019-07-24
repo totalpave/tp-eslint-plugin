@@ -68,7 +68,9 @@ export default {
                     }
                 ],
                 "@typescript-eslint/no-triple-slash-reference": "off",
-                "@typescript-eslint/triple-slash-reference": "off"
+                "@typescript-eslint/triple-slash-reference": "off",
+                "@typescript-eslint/prefer-interface": "off",
+                "@typescript-eslint/consistent-type-definitions": "off"
             }
         }
     ]
