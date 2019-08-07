@@ -50,6 +50,11 @@ export default {
                 "prefer-const": "off",
                 "prefer-spread": "off",
                 "no-async-promise-executor": "off",
+                "no-trailing-spaces": ['error', {
+                    "slipBlankLines": true,
+                    "ignoreComments": true
+                }],
+                "no-template-curly-in-string": ["error", "always"],
                 "@typescript-eslint/explicit-function-return-type": "off",
                 "@typescript-eslint/interface-name-prefix": ['error', 'always'],
                 "@typescript-eslint/no-inferrable-types": "off",
@@ -72,7 +77,8 @@ export default {
                 "@typescript-eslint/no-triple-slash-reference": "off",
                 "@typescript-eslint/triple-slash-reference": "off",
                 "@typescript-eslint/prefer-interface": "off",
-                "@typescript-eslint/consistent-type-definitions": "off"
+                "@typescript-eslint/consistent-type-definitions": "off",
+                "@typescript-eslint/no-var-requires": "off"
             }
         }
     ]

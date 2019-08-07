@@ -1,6 +1,6 @@
 {
   "name": "@totalpave/eslint-plugin",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Common test tools for TotalPave",
   "main": "dist/index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   "license": "UNLICENSED",
   "homepage": "https://bitbucket.org/totalpave/tp-testlib#readme",
   "peerDependencies": {
-    "eslint": ">=6.0.1 && <7.0.0"
+    "eslint": ">=6.1.0 && <7.0.0"
   }
 }
