@@ -51,7 +51,7 @@ export default {
                 "prefer-spread": "off",
                 "no-async-promise-executor": "off",
                 "no-trailing-spaces": ['error', {
-                    "slipBlankLines": true,
+                    "skipBlankLines": true,
                     "ignoreComments": true
                 }],
                 "no-template-curly-in-string": ["error", "always"],
