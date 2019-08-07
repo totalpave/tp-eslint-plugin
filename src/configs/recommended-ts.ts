@@ -54,7 +54,7 @@ export default {
                     "skipBlankLines": true,
                     "ignoreComments": true
                 }],
-                "no-template-curly-in-string": ["error", "always"],
+                "no-template-curly-in-string": "error",
                 "@typescript-eslint/explicit-function-return-type": "off",
                 "@typescript-eslint/interface-name-prefix": ['error', 'always'],
                 "@typescript-eslint/no-inferrable-types": "off",
