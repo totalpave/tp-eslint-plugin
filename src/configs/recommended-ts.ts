@@ -5,7 +5,7 @@ export default {
             files: ['*.ts', '*.tsx', '*.js', '*.jsx'],
             rules: {
                 "eol-last": ["error", "always"],
-                "array-bracket-spacing": ["error", "never"],
+                "array-bracket-spacing": ["error", "always"],
                 "array-element-newline": ["error", 
                     {
                         "minItems": 3
@@ -14,6 +14,7 @@ export default {
                 "array-bracket-newline": [
                     "error",
                     {
+                        "multiline": true,
                         "minItems": 3
                     }
                 ],
