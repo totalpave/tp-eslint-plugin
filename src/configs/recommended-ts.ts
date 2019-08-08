@@ -8,13 +8,13 @@ export default {
                 "array-bracket-spacing": ["error", "never"],
                 "array-element-newline": ["error", 
                     {
-                        "minItems": 2
+                        "minItems": 3
                     }
                 ],
                 "array-bracket-newline": [
                     "error",
                     {
-                        "minItems": 2
+                        "minItems": 3
                     }
                 ],
                 "comma-dangle": ["error", "never"],
@@ -54,6 +54,7 @@ export default {
                     "skipBlankLines": true,
                     "ignoreComments": true
                 }],
+                "brace-style": ["error", "Stroustrup" ],
                 "no-template-curly-in-string": "error",
                 "@typescript-eslint/explicit-function-return-type": "off",
                 "@typescript-eslint/interface-name-prefix": ['error', 'always'],
