@@ -55,7 +55,7 @@ export default {
                     "skipBlankLines": true,
                     "ignoreComments": true
                 }],
-                "brace-style": ["error", "Stroustrup" ],
+                "brace-style": ["error", "stroustrup" ],
                 "no-template-curly-in-string": "error",
                 "@typescript-eslint/explicit-function-return-type": "off",
                 "@typescript-eslint/interface-name-prefix": ['error', 'always'],
