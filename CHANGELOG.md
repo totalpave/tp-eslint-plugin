@@ -1,5 +1,8 @@
 # Changelog
 
+# 1.3.0
+- Turned on `no-var` rule.
+
 # 1.0.9
 - Turned off `no-async-promise-executor` rule.
 
