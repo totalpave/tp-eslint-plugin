@@ -36,7 +36,7 @@ export default {
                         "ignoreComments": true
                     }
                 ],
-                "no-var": 1,
+                "no-var": 2,
                 "no-explicit-any": "off",
                 // https://github.com/typescript-eslint/typescript-eslint/blob/v1.12.0/packages/eslint-plugin/docs/rules/camelcase.md#options
                 "camelcase": "off",

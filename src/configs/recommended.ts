@@ -39,7 +39,7 @@ export default {
                         "ignoreComments": true
                     }
                 ],
-                "no-var": 1,
+                "no-var": 2,
                 "no-explicit-any": "off"
             }
         }

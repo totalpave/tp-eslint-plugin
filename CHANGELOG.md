@@ -1,5 +1,8 @@
 # Changelog
 
+# 1.3.1
+- Turned `no-var` into an error rule.
+
 # 1.3.0
 - Turned on `no-var` rule.
 
