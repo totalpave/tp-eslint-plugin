@@ -1,5 +1,8 @@
 # Changelog
 
+# 2.0.0
+- upgraded support for `@typescript-eslint/eslint-plugin@2.0.0`
+
 # 1.3.1
 - Turned `no-var` into an error rule.
 
