@@ -40,7 +40,8 @@ export default {
                     }
                 ],
                 "no-var": 2,
-                "no-explicit-any": "off"
+                "no-explicit-any": "off",
+                "no-empty-function": "off",
             }
         }
     ]
