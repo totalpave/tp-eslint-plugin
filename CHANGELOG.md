@@ -1,5 +1,8 @@
 # Changelog
 
+# 2.0.1
+- Force `array-element-newline` rule on linebreaks, regardless of `minItems`.
+
 # 2.0.0
 - upgraded support for `@typescript-eslint/eslint-plugin@2.0.0`
 

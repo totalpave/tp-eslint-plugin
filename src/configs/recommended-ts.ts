@@ -8,7 +8,8 @@ export default {
                 "array-bracket-spacing": ["error", "always"],
                 "array-element-newline": ["error", 
                     {
-                        "minItems": 3
+                        "minItems": 3,
+                        "multiline": true
                     }
                 ],
                 "array-bracket-newline": [
