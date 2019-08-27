@@ -1,7 +1,7 @@
 
 import recommendedTS from './configs/recommended-ts';
 import recommended from './configs/recommended';
-import noDate from './rules/no-date.js';
+import noDate from './rules/no-date';
 // import * as unit from './unit';
 
 export = {

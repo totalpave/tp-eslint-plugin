@@ -1,5 +1,8 @@
 # Changelog
 
+# Unreleased
+- Added no-date rule.
+
 # 2.0.1
 - Force `array-element-newline` rule on linebreaks, regardless of `minItems`.
 
