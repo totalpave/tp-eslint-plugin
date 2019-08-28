@@ -31,13 +31,11 @@ var noDate = {
         docs: {
             description: "Disallow the use of `new Date` and `Date.now`. This rule is to enforce DateFactory usage.",
             category: "Possible Errors",
-            recommended: false,
-            url: "https://bitbucket.org/totalpave/tp-eslint-plugin/src/no-date-rule/src/rules/no-date.ts"
+            recommended: false
         },
         messages: {
             unexpected: "Unexpected `new Date`/`Date.now` statement. You should be using the DateFactory, which is accessible through ApplicationInstance."
-        },
-        schema: []
+        }
     },
     
     // copied from eslint repo. As for types, not messing with types here. We'll get proper types for our code. 
