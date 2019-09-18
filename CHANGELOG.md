@@ -1,7 +1,8 @@
 # Changelog
 
-# Unreleased
-- Added no-date rule.
+# 2.0.2
+- Added `no-date` rule.
+- Disabled `react/display-name` rule.
 
 # 2.0.1
 - Force `array-element-newline` rule on linebreaks, regardless of `minItems`.
