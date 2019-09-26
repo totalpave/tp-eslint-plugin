@@ -44,7 +44,7 @@ export default {
                 "no-explicit-any": "off",
                 "no-empty-function": "off",
                 "react/display-name": "off",
-                "eqeqeq": 'always'
+                "eqeqeq": 1
             }
         }
     ]

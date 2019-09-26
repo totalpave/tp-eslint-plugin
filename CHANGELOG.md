@@ -1,5 +1,9 @@
 # Changelog
 
+# 2.2.1
+- Added `.npmrc` file.
+- Fixed `eqeqeq` rule.
+
 # 2.2.0
 - Added strict `eqeqeq` rule.
 
