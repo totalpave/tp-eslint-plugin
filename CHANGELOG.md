@@ -1,5 +1,9 @@
 # Changelog
 
+# 2.3.0
+- Added `brace-style` rule.
+- Added `keyword-spacing` rule.
+
 # 2.2.1
 - Added `.npmrc` file.
 - Fixed `eqeqeq` rule.

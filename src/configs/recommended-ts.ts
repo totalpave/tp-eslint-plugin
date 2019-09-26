@@ -56,7 +56,6 @@ export default {
                     "skipBlankLines": true,
                     "ignoreComments": true
                 }],
-                "brace-style": ["error", "stroustrup" ],
                 "no-template-curly-in-string": "error",
                 "@typescript-eslint/explicit-function-return-type": "off",
                 "@typescript-eslint/interface-name-prefix": ['error', 'always'],
@@ -91,7 +90,14 @@ export default {
                 "@typescript-eslint/no-var-requires": "off",
                 "no-empty-function": "off",
                 "@typescript-eslint/no-empty-function": "off",
-                "eqeqeq": 1
+                "eqeqeq": 1,
+                "keyword-spacing": ["error", {
+                    "before": true,
+                    "after": true
+                }],
+                "brace-style": ["error", "stroustrup", {
+                    "allowSingleLine": true
+                }]
             }
         }
     ]

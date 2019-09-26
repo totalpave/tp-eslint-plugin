@@ -44,7 +44,14 @@ export default {
                 "no-explicit-any": "off",
                 "no-empty-function": "off",
                 "react/display-name": "off",
-                "eqeqeq": 1
+                "eqeqeq": 1,
+                "keyword-spacing": ["error", {
+                    "before": true,
+                    "after": true
+                }],
+                "brace-style": ["error", "stroustrup", {
+                    "allowSingleLine": true
+                }]
             }
         }
     ]
