@@ -1,6 +1,9 @@
 # Changelog
 
-# 2.0.2
+# 2.2.0
+- Added strict `eqeqeq` rule.
+
+# 2.1.0
 - Added `no-date` rule.
 - Disabled `react/display-name` rule.
 

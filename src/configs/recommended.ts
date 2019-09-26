@@ -43,7 +43,8 @@ export default {
                 "no-var": 2,
                 "no-explicit-any": "off",
                 "no-empty-function": "off",
-                "react/display-name": "off"
+                "react/display-name": "off",
+                "eqeqeq": 'always'
             }
         }
     ]
