@@ -90,7 +90,7 @@ export default {
                 "@typescript-eslint/no-var-requires": "off",
                 "no-empty-function": "off",
                 "@typescript-eslint/no-empty-function": "off",
-                "eqeqeq": 1,
+                "eqeqeq": 2,
                 "keyword-spacing": ["error", {
                     "before": true,
                     "after": true

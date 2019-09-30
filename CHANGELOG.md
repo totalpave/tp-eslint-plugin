@@ -1,5 +1,8 @@
 # Changelog
 
+# 2.3.1
+- Fixed `eqeqeq` rule.
+
 # 2.3.0
 - Added `brace-style` rule.
 - Added `keyword-spacing` rule.
