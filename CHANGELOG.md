@@ -1,5 +1,8 @@
 # Changelog
 
+# 2.3.2
+- Fixed a conflict with `keyword-spacing` `super` rule in TypeScript.
+
 # 2.3.1
 - Fixed `eqeqeq` rule.
 

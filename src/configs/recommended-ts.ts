@@ -93,7 +93,14 @@ export default {
                 "eqeqeq": 2,
                 "keyword-spacing": ["error", {
                     "before": true,
-                    "after": true
+                    "after": true,
+                    "overrides": {
+                        // Super conflicts with some typescript stuff
+                        "super": {
+                            "after": false,
+                            "before": false
+                        }
+                    }
                 }],
                 "brace-style": ["error", "stroustrup", {
                     "allowSingleLine": true
