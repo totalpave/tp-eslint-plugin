@@ -1,5 +1,8 @@
 # Changelog
 
+# 2.3.3
+- ident: Ignore descendents of TemplateLiteral nodes.
+
 # 2.3.2
 - Fixed a conflict with `keyword-spacing` `super` rule in TypeScript.
 
