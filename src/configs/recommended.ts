@@ -37,7 +37,10 @@ export default {
                     4,
                     {
                         "SwitchCase": 1,
-                        "ignoreComments": true
+                        "ignoreComments": true,
+                        "ignoredNodes": [
+                            "TemplateLiteral *"
+                        ]
                     }
                 ],
                 "no-var": 2,
