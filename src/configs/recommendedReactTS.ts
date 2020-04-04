@@ -66,7 +66,7 @@ export default {
                 "@typescript-eslint/no-angle-bracket-type-assertion": "off",
                 "@typescript-eslint/no-explicit-any": "off",
                 "@typescript-eslint/array-type": ['error', {
-                    default: 'generic'
+                    default: 'array-simple'
                 }],
                 "@typescript-eslint/explicit-member-accessibility": "off",
                 "@typescript-eslint/no-unused-vars": [
