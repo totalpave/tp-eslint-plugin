@@ -2,7 +2,7 @@
 export default {
     overrides: [
         {
-            files: ['*.ts', '*.js', '*.jsx'],
+            files: ['*.tsx'],
             rules: {
                 "eol-last": ["error", "always"],
                 "array-bracket-spacing": ["error", "always"],
@@ -87,7 +87,7 @@ export default {
                 "@typescript-eslint/consistent-type-assertions": [
                     'error',
                     {
-                        assertionStyle: 'angle-bracket'
+                        assertionStyle: 'as'
                     }
                 ],
                 "@typescript-eslint/no-var-requires": "off",
