@@ -61,7 +61,47 @@ export default {
                 }],
                 "no-template-curly-in-string": "error",
                 "@typescript-eslint/explicit-function-return-type": "off",
-                "@typescript-eslint/interface-name-prefix": ['error', 'always'],
+                "@typescript-eslint/naming-convention": [
+                    'error',
+                    {
+                        "selector": "variableLike",
+                        "format": ["camelCase"]
+                    },
+                    {
+                        "selector": "memberLike",
+                        "modifiers": ["private"],
+                        "format": ["camelCase"],
+                        "leadingUnderscore": "require"
+                    },
+                    {
+                        "selector": "variable",
+                        "types": ["boolean"],
+                        "format": ["PascalCase"],
+                        "prefix": [
+                            "is",
+                            "should",
+                            "has",
+                            "can",
+                            "will",
+                            "did"
+                        ]
+                    },
+                    {
+                        "selector": "typeParameter",
+                        "format": ["PascalCase"],
+                        "prefix": ["T"]
+                    },
+                    {
+                        "selector": "interface",
+                        "format": ["PascalCase"],
+                        "prefix": ["I"]
+                    },
+                    {
+                        "selector": "variable",
+                        "modifiers": ["const"],
+                        "format": ["UPPER_CASE"]
+                    }
+                ],
                 "@typescript-eslint/no-inferrable-types": "off",
                 "@typescript-eslint/no-angle-bracket-type-assertion": "off",
                 "@typescript-eslint/no-explicit-any": "off",
@@ -73,12 +113,6 @@ export default {
                     "error",
                     {
                         "args": "none"
-                    }
-                ],
-                "@typescript-eslint/camelcase": [
-                    "error",
-                    {
-                        "properties": "never"
                     }
                 ],
                 "@typescript-eslint/triple-slash-reference": "off",
