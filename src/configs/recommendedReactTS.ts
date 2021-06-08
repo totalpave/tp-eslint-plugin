@@ -61,7 +61,7 @@ export default {
                 }],
                 "no-template-curly-in-string": "error",
                 "@typescript-eslint/explicit-function-return-type": "off",
-                "@typescript-eslint/naming-convention": [
+                '@typescript-eslint/naming-convention': [
                     'error',
                     {
                         "selector": "variableLike",
@@ -70,6 +70,14 @@ export default {
                     {
                         "selector": "memberLike",
                         "modifiers": ["private"],
+                        "format": ["camelCase"],
+                        "prefix": [
+                            '$'
+                        ]
+                    },
+                    {
+                        "selector": "memberLike",
+                        "modifiers": ["protected"],
                         "format": ["camelCase"],
                         "leadingUnderscore": "require"
                     },
