@@ -25,15 +25,15 @@
   "license": "UNLICENSED",
   "homepage": "https://bitbucket.org/totalpave/tp-testlib#readme",
   "peerDependencies": {
-    "eslint": ">=7.5.0 && <8.0.0"
-  },
-  "optionalDependencies": {
-    "@typescript-eslint/eslint-plugin": "3.7.0",
-    "@typescript-eslint/parser": "3.7.0"
+    "eslint": ">=7.5.0 <8.0.0"
   },
   "devDependencies": {
     "auto-changelog": "2.3.0",
-    "eslint": "7.28.0",
-    "typescript": "4.0.3"
+    "eslint": "7.32.0",
+    "typescript": "4.3.5"
+  },
+  "optionalDependencies": {
+    "@typescript-eslint/eslint-plugin": "4.x",
+    "@typescript-eslint/parser": "4.x"
   }
 }
