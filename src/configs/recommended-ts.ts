@@ -110,6 +110,7 @@ export default {
                         "format": ["UPPER_CASE"]
                     }
                 ],
+                '@typescript-eslint/await-thenable': 'error',
                 "@typescript-eslint/no-inferrable-types": "off",
                 "@typescript-eslint/no-angle-bracket-type-assertion": "off",
                 "@typescript-eslint/no-explicit-any": "off",
