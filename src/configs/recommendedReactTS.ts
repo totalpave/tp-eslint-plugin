@@ -44,14 +44,8 @@ export default {
                 "no-explicit-any": "off",
                 // https://github.com/typescript-eslint/typescript-eslint/blob/v1.12.0/packages/eslint-plugin/docs/rules/camelcase.md#options
                 "camelcase": "off",
-                "no-use-before-define": [
-                    "error",
-                    {
-                        "functions": true,
-                        "classes": true,
-                        "variables": true
-                    }
-                ],
+                // typescript-eslint has a version of this that works, eslint's verison will error on generics and such.
+                "no-use-before-define": "off",
                 "prefer-const": "off",
                 "prefer-spread": "off",
                 "no-async-promise-executor": "off",
