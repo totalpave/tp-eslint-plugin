@@ -25,7 +25,7 @@
   "license": "UNLICENSED",
   "homepage": "https://bitbucket.org/totalpave/tp-testlib#readme",
   "peerDependencies": {
-    "eslint": "8.x.0"
+    "eslint": "8.x"
   },
   "devDependencies": {
     "auto-changelog": "2.4.0",
