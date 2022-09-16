@@ -1,3 +1,3 @@
-# tp-testlib
+# @totalpave/eslint-plugin
 
-A library that provides common test tooling for TotalPave packages
+ESLint Plugin for totalpave packages.
