@@ -113,7 +113,7 @@ export default {
                 }],
                 "@typescript-eslint/explicit-member-accessibility": "off",
                 "@typescript-eslint/no-unused-vars": [
-                    "error",
+                    "warn",
                     {
                         "args": "none"
                     }
