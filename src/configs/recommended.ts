@@ -27,7 +27,7 @@ export default {
                 "no-extra-boolean-cast": "off",
                 "no-fallthrough": "off",
                 "no-unused-vars": [
-                    "error",
+                    "warn",
                     {
                         "args": "none"
                     }
