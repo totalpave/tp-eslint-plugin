@@ -82,6 +82,8 @@ export default {
                         "prefix": [
                             "is",
                             "should",
+                            "contain",
+                            "contains",
                             "has",
                             "can",
                             "will",
