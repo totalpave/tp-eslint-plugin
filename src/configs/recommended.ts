@@ -6,18 +6,13 @@ export default {
             rules: {
                 "eol-last": ["error", "always"],
                 "array-bracket-spacing": ["error", "never"],
-                "array-element-newline": ["error", 
+                "array-element-newline": [
+                    "error", 
                     {
-                        "minItems": 3,
-                        "multiline": true
+                        "ArrayExpression": "consistent"
                     }
                 ],
-                "array-bracket-newline": [
-                    "error",
-                    {
-                        "minItems": 2
-                    }
-                ],
+                "array-bracket-newline": [ "error",  "consistent" ],
                 "comma-dangle": ["error", "never"],
                 "comma-spacing": ["error", {
                     "before": false,
