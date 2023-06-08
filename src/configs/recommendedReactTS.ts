@@ -101,7 +101,8 @@ export default {
                 "@typescript-eslint/no-inferrable-types": "off",
                 "@typescript-eslint/no-angle-bracket-type-assertion": "off",
                 "@typescript-eslint/no-explicit-any": "off",
-                "@typescript-eslint/array-type": ['error', {
+                "@typescript-eslint/no-this-alias": "off",
+                "@typescript-eslint/array-type": ['warn', {
                     default: 'array-simple'
                 }],
                 "@typescript-eslint/explicit-member-accessibility": "off",
