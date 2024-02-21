@@ -33,11 +33,11 @@
   },
   "devDependencies": {
     "auto-changelog": "2.4.0",
-    "eslint": "8.51.0",
-    "typescript": "5.2.2"
+    "eslint": "8.56.0",
+    "typescript": "5.3.3"
   },
   "optionalDependencies": {
-    "@typescript-eslint/eslint-plugin": "6.x",
-    "@typescript-eslint/parser": "6.x"
+    "@typescript-eslint/eslint-plugin": "6.x || 7.x",
+    "@typescript-eslint/parser": "6.x || 7.x"
   }
 }
