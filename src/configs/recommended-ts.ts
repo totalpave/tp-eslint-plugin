@@ -107,7 +107,7 @@ export default {
                 "@typescript-eslint/no-explicit-any": "off",
                 "@typescript-eslint/no-this-alias": "off",
                 "@typescript-eslint/array-type": ['warn', {
-                    default: 'array-simple'
+                    default: 'array'
                 }],
                 "@typescript-eslint/explicit-member-accessibility": "off",
                 "@typescript-eslint/no-unused-vars": [
