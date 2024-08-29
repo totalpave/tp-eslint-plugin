@@ -49,7 +49,10 @@ export default {
                 }],
                 "brace-style": ["error", "stroustrup", {
                     "allowSingleLine": true
-                }]
+                }],
+
+                // Will complain on self existence checked function calls, e.g: x && x();
+                "no-unused-expressions": "off"
             }
         }
     ]
