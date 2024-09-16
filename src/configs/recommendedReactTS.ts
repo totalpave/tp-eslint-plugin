@@ -70,19 +70,6 @@ export default {
                         "leadingUnderscore": "require"
                     },
                     {
-                        "selector": "variable",
-                        "types": ["boolean"],
-                        "format": ["PascalCase"],
-                        "prefix": [
-                            "is",
-                            "should",
-                            "has",
-                            "can",
-                            "will",
-                            "did"
-                        ]
-                    },
-                    {
                         "selector": "typeParameter",
                         "format": ["PascalCase"],
                         "prefix": ["T"]
