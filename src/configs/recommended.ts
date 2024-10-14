@@ -52,7 +52,18 @@ export default {
                 }],
 
                 // Will complain on self existence checked function calls, e.g: x && x();
-                "no-unused-expressions": "off"
+                "no-unused-expressions": "off",
+
+                // Promise Rules
+                // See https://www.npmjs.com/package/eslint-plugin-promise
+                // At first these will be configured to warn, but in a future
+                // major release, expect these to be turned to errors.
+
+                // Requires returning inside each .then
+                "promise/always-return": "warn",
+
+                // Enforces promises to be caught if not returned.
+                "promise/catch-or-return": "warn"
             }
         }
     ]
