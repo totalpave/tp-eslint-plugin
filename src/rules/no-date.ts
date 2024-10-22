@@ -161,8 +161,11 @@ var noDate = {
         }
 
         return {
-            "Program:exit"() {
-                const scope: any = context.getScope();
+            Program(node: any) {
+                const sourceCode = context.sourceCode ?? context.getSourceCode();
+                const scope: any = sourceCode.getScope
+                ? sourceCode.getScope(node)
+                : context.getScope();
                 const dateVar: any = noDate.getVariableByName(scope, UNWANTED_CLASS_NAME);
                 const shadowed: any = dateVar && dateVar.defs.length > 0;
 
