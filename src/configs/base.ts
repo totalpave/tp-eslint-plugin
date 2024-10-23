@@ -71,7 +71,8 @@ export default {
         "@typescript-eslint/no-unused-vars": [
             "warn",
             {
-                "args": "none"
+                "args": "none",
+                "caughtErrors": "none"
             }
         ],
 
