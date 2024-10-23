@@ -120,7 +120,11 @@ export default {
             {
                 "selector": "interface",
                 "format": ["PascalCase"],
-                "prefix": ["I"]
+                "prefix": ["I"],
+                "filter": {
+                  "regex": "^Window$", // Allow Window interface to be used, which is needed to extend the Window object.
+                  "match": false
+                }
             },
             {
                 "selector": "variable",
