@@ -48,6 +48,12 @@ export default {
         "no-explicit-any": "off",
         "no-empty-function": "off",
         "@typescript-eslint/no-empty-function": "off",
+        "@typescript-eslint/no-empty-object-type": [
+            "error",
+            {
+                "allowInterfaces": "always"
+            }
+        ],
         "react/display-name": "off",
         "eqeqeq": "error",
         "keyword-spacing": ["error", {
