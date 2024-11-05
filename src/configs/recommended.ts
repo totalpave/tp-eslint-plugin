@@ -9,5 +9,5 @@ import tslint from 'typescript-eslint';
 export default [
     eslint.configs.recommended,
     ...tslint.configs.recommended,
-    base
+    ...base
 ]
