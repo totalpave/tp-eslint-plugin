@@ -21,7 +21,9 @@ export default {
         }
     },
     rules: {
-        "no-console": "error",
+        "no-console": ["error", {
+            allow: ["warn", "error"]
+        }],
         "eol-last": ["error", "always"],
         "array-bracket-spacing": "off",
         "array-element-newline": "off",
