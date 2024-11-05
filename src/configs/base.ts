@@ -16,7 +16,7 @@ export default {
         globals: {
             ...globals.browser,
             ...globals.node,
-            ...globals.jasmine,
+            ...globals.jasmine, // TODO: deprecate
             ...globals.jest
         }
     },
