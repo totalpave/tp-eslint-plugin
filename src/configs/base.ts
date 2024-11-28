@@ -18,7 +18,8 @@ export default [
                 ...globals.browser,
                 ...globals.node,
                 ...globals.jasmine, // TODO: deprecate
-                ...globals.jest
+                ...globals.jest,
+                GeoJSON: 'readonly'
             }
         },
         rules: {
