@@ -1,13 +1,15 @@
 
 import globals from 'globals';
 import react from 'eslint-plugin-react';
+import promise from 'eslint-plugin-promise';
 import totalpave from '../plugin';
 
 export default [
     {
         plugins: {
             react,
-            totalpave
+            totalpave,
+            promise
         },
         languageOptions: {
             sourceType: "module",
@@ -87,16 +89,13 @@ export default [
             }],
             "no-template-curly-in-string": "error",
 
-            
-
             // Promise Rules
             // See https://www.npmjs.com/package/eslint-plugin-promise
 
-            // TODO: Enable when promise eslint plugin supports eslint v9
             // Requires returning inside each .then
-            // "promise/always-return": "error",
+            "promise/always-return": "off",
             // Enforces promises to be caught if not returned.
-            // "promise/catch-or-return": "error",
+            "promise/catch-or-return": "warn",  // TODO: Switch to "error"
             
             "react/no-deprecated": "warn",
 

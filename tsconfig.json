@@ -19,6 +19,9 @@
       "outDir": "./dist",
       "resolveJsonModule": true
     },
+    "files": [
+      "./src/vendors.d.ts"
+    ],
     "include": [
         "src"
     ]
