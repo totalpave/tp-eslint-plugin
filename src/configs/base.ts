@@ -69,6 +69,7 @@ export default [
             "brace-style": ["error", "stroustrup", {
                 "allowSingleLine": true
             }],
+            "@typescript-eslint/no-duplicate-enum-values": "off",
 
             // Will complain on self existence checked function calls, e.g: x && x();
             "no-unused-expressions": "off",
