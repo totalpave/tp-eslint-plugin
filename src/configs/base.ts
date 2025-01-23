@@ -25,7 +25,7 @@ export default [
             }
         },
         rules: {
-            "no-console": ["error", {
+            "no-console": ["warn", {
                 allow: ["warn", "error"]
             }],
             "eol-last": ["error", "always"],
