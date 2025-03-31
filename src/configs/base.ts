@@ -26,7 +26,7 @@ export default [
         },
         rules: {
             "no-console": ["warn", {
-                allow: ["warn", "error"]
+                allow: ["info", "warn", "error"]
             }],
             "eol-last": ["error", "always"],
             "array-bracket-spacing": "off",
