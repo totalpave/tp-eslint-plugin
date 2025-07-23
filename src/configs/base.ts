@@ -135,6 +135,7 @@ export default [
             "@typescript-eslint/triple-slash-reference": "off",
             "@typescript-eslint/prefer-interface": "off",
             "@typescript-eslint/consistent-type-definitions": "off",
+            "@typescript-eslint/no-floating-promises": "warn",
             "@typescript-eslint/array-type": ['warn', {
                 default: 'array'
             }],
